@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://Zmaster3.github.io/Prueba-ERS",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "deploy": "gh-pages -d src/index.js"
   },
   "keywords": [],
   "author": "",
